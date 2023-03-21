@@ -1,0 +1,37 @@
+Ejercicio 1. Investiga cuales son las secuencias de escape en el lenguaje C y realiza un programa
+que muestre en pantalla un rectángulo de asteriscos como el que se muestra a continuación donde
+aparezca la leyenda “PRACTICA 1” y tu nombre. Debes utilizar las secuencias de escape necesarias
+de tal forma que para imprimir el rectángulo junto con las leyendas lo hagas utilizando un solo printf.
+* * * * * * * * * * * * * * * * * * * *
+*               PRACTICA 1            *
+*                 MARIA               *
+*                                     *
+* * * * * * * * * * * * * * * * * * * *
+Ejercicio 2. Un sistema de ecuaciones lineales
+ax+by=c
+dx+ey=f
+se puede resolver con las siguientes fórmulas:
+x=
+ce−bf
+ae−bd y=
+af −cd
+ae−bd
+
+Crea un algoritmo y un programa que lea dos conjuntos de coeficientes (a,b y c; d, e y f) y visualice
+los valores de x y y.
+Ejercicio 3. Escribir un algoritmo y un programa que, al recibir como datos la clave del empleado
+(valor entero) y los seis primeros sueldos del año (valores reales), calcule el ingreso total semestral y
+el promedio mensual, e imprima la clave del empleado, el ingreso total y el promedio mensual.
+Ejercicio 4. Diseña un algoritmo que convierta un número dado de segundos en el equivalente de
+horas, minutos y segundos y muestre el resultado en pantalla.
+Ejercicio 5. Pide al usuario que introduzca cinco números reales y muestralos en pantalla en el orden
+inverso en que los introdujo, por ejemplo:
+> Introduce el primer número: 30.4
+> Introduce el segundo número: 3.0
+> Introduce el tercer número: 12.0
+> Introduce el cuarto número: 5.9
+> Introduce el quinto número: 99.2
+>Orden inverso: 99.2 5.9 12.0 3.0 30.4
+Ejercicio 6. Realiza un algoritmo y un programa que convierta una medida dada en pies a sus
+equivalentes en: yardas, pulgadas, centímetros y metros. Leer el número de pies e imprimir el número
+de yardas, pies, pulgadas, centímetros y metros.
