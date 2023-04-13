@@ -1,1 +1,41 @@
+Ejercicio 1. Diseña un algoritmo y un programa que pida al usuario introduzca un número de a lo
+más 3 dígitos (contempla números positivos y números negativos) y muéstrale en pantalla de cuantos
+dígitos es su número y si es positivo o negativo. Si el número tiene más de 3 dígitos SOLO muestra
+un mensaje que indique que el número no es válido.
 
+Ejercicio 2. En un hospital se hizo un análisis de los pacientes recibidos en los últimos 10 años con
+el objetivo de hacer una aproximación de los costos de internación por paciente. Según el tipo de
+enfermedad que aqueja se determino que los pacientes con edad entre 12 y 25 años implican un
+costo adicional del 10%.
+
+  Enfermedad Costo diario
+  Diabetes $1500.00
+  Hipertensión $1100.00
+  Cáncer $2200.00
+
+Realiza un algoritmo y un programa que pida al paciente sus datos (días hospitalizado, edad y tipo de
+enfermedad) y le indique el costo total de internación del paciente.
+
+Ejercicio 3. Escribir un algoritmo y un programa que calcule la edad de una persona; para ello se va
+a tener como entrada dos fechas utilizando el formato del ejercicio anterior, día (1 a 31), mes (1 a 12)
+y año (entero de cuatro dígitos), correspondientes a la fecha de nacimiento y la fecha actual,
+respectivamente. Escribir un programa que calcule y visualice la edad de la persona. Si es la fecha de
+un bebé (menos de un año de edad), la edad se debe dar en meses y días; en caso contrario, la edad
+se calculará en años.
+Ejercicio 4. Diseña un algoritmo y un programa que convierta un número del 1 al 10 en su
+correspondiente al sistema numérico romano, indicando cual es este número romano. Si introduce un
+número que no este en el rango del 1 al 10, solo muestra un mensaje indicando que es un valor
+incorrecto.
+
+
+Ejercicio 5. Diseña un algoritmo y un programa que calcule el saldo neto mensual (saldo bruto -
+impuestos) de los empleados de una empresa cuyo trabajo se paga por horas. El saldo bruto se
+calcula:
+• Las horas inferiores a 40 horas se pagan a una tarifa de $250 por hora.
+• Cada hora adicional a la hora 40 se pagarán cómo extra a un costo de 1.5 horas normales.
+Los impuestos a deducir varían en función de su saldo bruto:
+◦ Si el saldo bruto es menor a $8000, libre de impuestos.
+◦ Si el sueldo bruto esta entre $8000 y $10000 , el 5%
+◦ Si el sueldo bruto es mayor a $10000, el 10%
+Pide al usuario que introduzca cuántas horas laboró al mes y realiza el calculo. Si las horas son
+negativas solo muestra un mensaje indicando que es un dato incorrecto.
