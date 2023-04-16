@@ -3,26 +3,23 @@
 
 int clave();
 void sueldos(float *s);
-float salarios(float x,float y,float z,float a,float b,float c);
+
 
 
 int main(void)
 {
-   float s1,s2,s3,s4,s5,s6;
-   clave();
-   sueldos(&s1);
-   printf("Tu primer sueldo es %.2f\n", s1);
-   sueldos(&s2);
-   printf("Tu segundo sueldo es %.2f\n", s2);
-   sueldos(&s3);
-   printf("Tu tercer sueldo es %.2f\n", s3);
-   sueldos(&s4);
-   printf("Tu cuarto sueldo es %.2f\n", s4);
-   sueldos(&s5);
-   printf("Tu quinto sueldo es %.2f\n", s5);
-   sueldos(&s6);
-   printf("Tu sexto sueldo es %.2f\n", s6);
-   salarios(s1,s2,s3,s4,s5,s6);
+   float sueldos[6];
+   float salario_total;
+
+   for (int i=0; i <sizeof(sueldos)/sizeof(float); i++)
+      ///  Add and sum the elements of the array
+   {
+        sueldo(&sueldos[i]);
+        salario_total += sueldos[i];
+    }
+    
+    float salario_prom = salario_total/6;
+    printf("Tu sueldo semestral es %.2f\nTu sueldo promedio es %.2f", salario_total, salario_prom);
 
 }
 
@@ -37,7 +34,7 @@ int clave()
 }
 
 void sueldos(float *s)
-{
+{///Checks the salary
     do
     { 
         printf("Salario debe ser mayor a 200\n");
@@ -46,11 +43,4 @@ void sueldos(float *s)
     } while (*s< 200);
 }
 
-float salarios(float x,float y,float z,float a,float b,float c)
-{
-    float salario_semestral = x+y+z+a+b+c;
-    float promedio = salario_semestral/6;
-    printf("Tu salario semestral completo es %.2f\n", salario_semestral);
-    printf("Tu promedio mensual es %.2f", promedio);
 
-}
