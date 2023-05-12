@@ -1,0 +1,35 @@
+Ejercicio 1. Realiza un programa que continuamente pida al usuario introduzca un número positivo y
+lo lea, y cuando el usuario introduzca un número negativo deje de pedirle que introduzca números.
+Realiza los siguientes cálculos y muestralos en pantalla:
+• Cuenta cuántos números positivos introdujo el usuario.
+• Calcula el promedio de los números positivos que introdujo.
+• De los números positivos, cuenta cuántos números fueron pares y cuántos números fueron
+impares.
+Ejercicio 2. Realiza un programa que pida al usuario dos números enteros m y n . Realiza la
+multiplicación de m por n UTILIZANDO SUMAS SUCESIVAS (sumar m veces n). Tu programa puede
+aceptar números negativos.
+Por ejemplo: m=5 y n=2
+EL PROCEDIMIENTO DE 5*2 APLICANDO SUMAS SUCESIVAS:
+resultado = 2+2+2+2+2 = 10 (SUMAR 5 VECES 2)
+Por ejemplo: m=3 y n=10
+resultado = 10+10+10 = 30 (SUMAR 3 VECES 10)
+Ejercicio 3. Se desea introducir calificaciones de 5 alumnos, cada alumno tiene 3 evaluaciones.
+Hacer un programa que calcule el promedio de cada alumno y el promedio del grupo. Además indicar
+el número de reprobados y de aprobados que hubo. Válida que las calificaciones que introduzca el
+usuario estén entre 0 y 10. Si alguna es inválida vas a seguirla pidiendo y leyendo continuamente
+hasta que sea correcta.
+Ejercicio 4. Implementar un programa que solicite a su usuario un valor no negativo n y visualice la
+siguiente salida:
+1 2 3 ........ n−1 n
+1 2 3 ........ n−1
+...
+1 2 3
+1 2
+1
+
+Por ejemplo, si n=5
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
